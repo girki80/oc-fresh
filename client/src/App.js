@@ -2009,7 +2009,7 @@ function Admin({ go }) {
                 <div style={{ fontSize:'.78rem', fontWeight:700, color:C.teal, textTransform:'uppercase', letterSpacing:'.1em', marginBottom:'.5rem' }}>3. Message Body</div>
                 <div style={{ fontSize:'.75rem', color:C.muted, marginBottom:'.4rem' }}>Use blank lines between paragraphs. Keep it concise — 3–5 paragraphs works best.</div>
                 <textarea value={emailForm.body} onChange={e=>setEmailForm(p=>({...p, body:e.target.value}))}
-                  placeholder={"We are excited to announce a new feature on OriginCheck...
+                  placeholder={"We are excited to announce a new feature on OriginCheck..."}
 
 You can now use the AI Humaniser to rewrite AI-generated text so it sounds naturally human-written.
 
