@@ -2027,9 +2027,7 @@ Log in to try it today: " + (typeof window !== 'undefined' ? window.location.ori
                   <div style={{ fontSize:'.82rem', color:C.muted, marginBottom:'.3rem' }}>From: OriginCheck &lt;noreply@origincheck.ng&gt;</div>
                   <div style={{ fontSize:'.82rem', color:C.muted, marginBottom:'.5rem' }}>Subject: {emailForm.subject}</div>
                   <div style={{ fontSize:'.85rem', color:C.ink, lineHeight:1.7, whiteSpace:'pre-wrap', borderTop:`1px solid ${C.border}`, paddingTop:'.5rem' }}>
-                    {emailForm.personalise ? 'Dear [Recipient Name],
-
-' : ''}{emailForm.body}
+                    {emailForm.personalise ? 'Dear [Recipient Name],' : ''}{emailForm.body}
                   </div>
                 </div>
               )}
